@@ -31,6 +31,11 @@ class ViewController: UIViewController {
         number = 0
         Label.text = String(number)
     }
+    
+    @IBAction func a () {
+        number = number * 2
+        Label.text = String(number)
+    }
 
 
 }
